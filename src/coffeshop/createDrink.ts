@@ -7,12 +7,12 @@ const drinks: DrinkType[] = [
 	{ name: "Cappuccino", price: "3" },
 	{ name: "Latte", price: "4" },
 	{ name: "Americano", price: "2" },
-	{ name: "Mocha", price: "6" },
+	{ name: "Mocha", price: "5" },
 ];
 
 // return drink type and price
 export function createDrink(type: string): DrinkType {
-	const drink: DrinkType = drinks.find((drink) => drink.name === type);
+	const drink: DrinkType = drinks.find((drink) => drink.name === type || undefined);
 	if (!drink) return { name: type, price: "sold out" };
 	return drink;
 }
