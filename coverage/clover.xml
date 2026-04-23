@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1776931773435" clover="3.2.0">
+  <project timestamp="1776931773435" name="All files">
+    <metrics statements="36" coveredstatements="35" conditionals="10" coveredconditionals="8" methods="12" coveredmethods="12" elements="58" coveredelements="55" complexity="0" loc="36" ncloc="36" packages="2" files="4" classes="4"/>
+    <package name="src">
+      <metrics statements="20" coveredstatements="19" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="7"/>
+      <file name="math.ts" path="/home/eklow/dev/skola-backend-2026/integrationtests/src/math.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+      <file name="pizzashop.js" path="/home/eklow/dev/skola-backend-2026/integrationtests/src/pizzashop.js">
+        <metrics statements="17" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="4"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+      </file>
+      <file name="sum.ts" path="/home/eklow/dev/skola-backend-2026/integrationtests/src/sum.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="3" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.coffeshop">
+      <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
+      <file name="createDrink.ts" path="/home/eklow/dev/skola-backend-2026/integrationtests/src/coffeshop/createDrink.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="15" count="21" type="stmt"/>
+        <line num="16" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="6" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="5" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
