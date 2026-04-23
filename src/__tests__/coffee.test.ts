@@ -28,7 +28,7 @@ describe("CreateDrink", () => {
 	it("test createDrink Mocha", () => {
 		expect(createDrink("Mocha")).toStrictEqual({
 			name: "Mocha",
-			price: "6",
+			price: "5",
 		});
 	});
 
